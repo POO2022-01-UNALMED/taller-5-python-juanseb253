@@ -14,6 +14,8 @@ class Zoologico:
         self._ubicacion = ubicacion
     def getZonas(self):
         return self._zonas
+    def getZona(self):
+        return self._zonas
     
     def agregarZonas(self, zona):
         self._zonas.append(zona)
